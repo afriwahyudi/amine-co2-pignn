@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides instructions for setting up the development environment for the PIGNN (PyTorch Geometric Neural Networks) project. The environment includes PyTorch with CUDA support, PyTorch Geometric, and essential data science and chemistry libraries.
+This document provides instructions for setting up the development environment for the PIGNN (Physics-informed Neural Networks) project. The environment includes PyTorch with CUDA support, PyTorch Geometric, and essential data science and chemistry libraries.
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ This document provides instructions for setting up the development environment f
 Copy and paste this single command to install everything automatically:
 
 ```bash
-conda create -n pignn_env python=3.11.9 -y && conda activate pignn_env && conda install pytorch=2.2.2 pytorch-cuda=12.1 torchvision=0.17.2 torchaudio=2.2.2 -c pytorch -c nvidia -y && pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.2.2+cu121.html && pip install torch-geometric==2.5.3 && conda install numpy==1.26.3 pandas==2.2.2 matplotlib=3.8.4 seaborn=0.13.2 scikit-learn=1.7.1 networkx=3.2.1 rdkit=2023.09.5 jupyter ipykernel -c conda-forge -y && pip install captum==0.8.0 py3Dmol==2.4.2 plotly==6.2.0 kaleido==1.1.0 optuna==4.2.1
+conda create -n pignn_env python=3.11.9 -y && conda activate pignn_env && conda install pytorch=2.2.2 pytorch-cuda=12.1 torchvision=0.17.2 torchaudio=2.2.2 -c pytorch -c nvidia -y && pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.2.2+cu121.html && pip install torch-geometric==2.5.3 && conda install numpy==1.26.3 pandas==2.2.2 matplotlib=3.8.4 seaborn=0.13.2 scikit-learn=1.7.1 networkx=3.2.1 rdkit=2023.09.5 jupyter ipykernel -c conda-forge -y && pip install captum==0.8.0 py3Dmol==2.4.2 plotly==6.2.0 kaleido==1.1.0 optuna==4.2.1 papermill
 ```
 
 ### Option 2: Step-by-Step Installation
@@ -63,7 +63,7 @@ conda install numpy==1.26.3 pandas==2.2.2 matplotlib==3.8.4 seaborn==0.13.2 plot
 7. Install Data Science and Chemistry Packages
 
 ```bash
-pip install captum==0.8.0 py3Dmol==2.4.2 plotly==6.2.0 kaleido==1.1.0 optuna==4.2.1
+pip install captum==0.8.0 py3Dmol==2.4.2 plotly==6.2.0 kaleido==1.1.0 optuna==4.2.1 papermill
 ```
 
 ### Check if the installation is correct
