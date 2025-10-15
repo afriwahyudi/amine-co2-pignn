@@ -120,22 +120,26 @@ Run the 'dependencies_test.py' at your installed conda environment (pignn_env)
 
 The environment includes the following specific versions:
 
-| Package           | Version   | Purpose                    |
-| ----------------- | --------- | -------------------------- |
-| Python            | 3.11.9    | Base programming language  |
-| PyTorch           | 2.2.2     | Deep learning framework    |
-| PyTorch CUDA      | 12.1      | GPU acceleration           |
-| TorchVision       | 0.17.2    | Computer vision utilities  |
-| TorchAudio        | 2.2.2     | Audio processing utilities |
-| PyTorch Geometric | 2.5.3     | Graph neural networks      |
-| NumPy             | 1.26.3    | Numerical computing        |
-| Pandas            | 2.2.2     | Data manipulation          |
-| Matplotlib        | 3.8.4     | Data visualization         |
-| Seaborn           | 0.13.2    | Statistical visualization  |
-| Scikit-learn      | 1.7.1     | Machine learning utilities |
-| NetworkX          | 3.2.1     | Graph analysis             |
-| RDKit             | 2023.09.5 | Cheminformatics            |
-| Jupyter           | -         | Interactive notebooks      |
-| IPykernel         | -         | Jupyter kernel             |
-| Captum            | 0.8.0     | Model interpretability     |
-| py3Dmol           | 2.4.2     | 3D molecular visualization |
+| Package           | Version   | Purpose                         |
+| ----------------- | --------- | ------------------------------- |
+| Python            | 3.11.9    | Base programming language       |
+| PyTorch           | 2.2.2     | Deep learning framework         |
+| PyTorch CUDA      | 12.1      | GPU acceleration                |
+| TorchVision       | 0.17.2    | Computer vision utilities       |
+| TorchAudio        | 2.2.2     | Audio processing utilities      |
+| PyTorch Geometric | 2.5.3     | Graph neural networks           |
+| NumPy             | 1.26.3    | Numerical computing             |
+| Pandas            | 2.2.2     | Data manipulation               |
+| Matplotlib        | 3.8.4     | Data visualization              |
+| Seaborn           | 0.13.2    | Statistical visualization       |
+| Scikit-learn      | 1.7.1     | Machine learning utilities      |
+| NetworkX          | 3.2.1     | Graph analysis                  |
+| RDKit             | 2023.09.5 | Cheminformatics                 |
+| Jupyter           | -         | Interactive notebooks           |
+| IPykernel         | -         | Jupyter kernel                  |
+| Captum            | 0.8.0     | Model interpretability          |
+| py3Dmol           | 2.4.2     | 3D molecular visualization      |
+| plotly            | 6.2.0     | Visualization                   |
+| kaleido           | 1.1.0     | Complementary engine for plotly |
+| optuna            | 4.2.1     | Optimization tools              |
+| papermill         | -         | Parameterizing notebooks        |
