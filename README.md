@@ -66,6 +66,52 @@ conda install numpy==1.26.3 pandas==2.2.2 matplotlib==3.8.4 seaborn==0.13.2 plot
 pip install captum==0.8.0 py3Dmol==2.4.2 plotly==6.2.0 kaleido==1.1.0 optuna==4.2.1 papermill
 ```
 
+### Using Custom Python Modules
+
+The project contains a folder `modules/` with multiple Python files. To make Python recognize these modules, follow the steps below:
+
+**1. Locate your project folder**
+
+Open the folder where you cloned the repository. Inside, find the `modules` folder. Note the full path (e.g., `E:\Virtual lab\amine_gnn\pignn\modules`).
+
+**2. Open Environment Variables Settings**
+
+* Press `Win + R`, type `sysdm.cpl`, and press Enter.
+* Go to the **Advanced** tab → click **Environment Variables…**
+
+**3. Add a new PYTHONPATH variable**
+
+* Under **User variables**, click **New…**
+* **Variable name:** `PYTHONPATH`
+* **Variable value:** full path to your modules folder, e.g.,
+  ```
+  E:\Virtual lab\amine_gnn\pignn\modules
+  ```
+* Click **OK** to save.
+
+**4. Update existing PYTHONPATH (if it exists)**
+
+* If `PYTHONPATH` already exists, select it → click **Edit…**
+* Add a semicolon `;` at the end of the current value, then add your modules path.
+
+  Example:
+
+  ```
+  C:\some\other\path;E:\Virtual lab\amine_gnn\pignn\modules
+  ```
+
+**Test in Python**
+
+Open you preferred IDE and run:
+
+```
+import sys
+print(sys.path)
+from EnhancedDataSplit import DataSplitter
+```
+
+All `.py` files in the `modules/` folder are automatically accessible after setting `PYTHONPATH`.
+
 ### Check if the installation is correct
 
 Run the 'dependencies_test.py' at your installed conda environment (pignn_env)
