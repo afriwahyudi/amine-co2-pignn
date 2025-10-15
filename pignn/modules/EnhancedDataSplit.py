@@ -295,7 +295,7 @@ class DataSplitter:
         
         # Verify sample conservation
         final_total = len(train_data) + len(val_data) + len(test_data)
-        print(f"✓ Sample conservation check: {final_total}/{len(self.dataset)} samples")
+        print(f"Sample conservation check: {final_total}/{len(self.dataset)} samples")
         
         return train_data, val_data, test_data
 
@@ -435,7 +435,7 @@ class DataSplitter:
                             f"Train-Test: {overlap_train_test}, "
                             f"Val-Test: {overlap_val_test}")
         
-        print(f"✓ No amine overlap. Unique amines - Train: {len(train_set)}, Val: {len(val_set)}, Test: {len(test_set)}")
+        print(f"No amine overlap. Unique amines - Train: {len(train_set)}, Val: {len(val_set)}, Test: {len(test_set)}")
 
     def _print_split_stats(self, train_data, val_data, test_data, split_name):
         """Print concise statistics for the data splits."""
