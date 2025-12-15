@@ -4,7 +4,7 @@
 
 This repository contains the source code and environment setup for PIGNN (Physics-Informed Graph Neural Networks) from the paper 
 "Generalizable physics-informed graph neural network for CO2 solubility prediction across amine classes" 
-published in Separation and Purification Technology.
+published in Separation and Purification Technology (https://doi.org/10.1016/j.seppur.2025.136395).
 The environment includes PyTorch with CUDA support, PyTorch Geometric, and essential libraries for data science and molecular chemistry.
 
 ## Prerequisites
