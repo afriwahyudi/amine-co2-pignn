@@ -2,7 +2,10 @@
 
 ## Overview
 
-This document provides instructions for setting up the development environment for the PIGNN (Physics-informed Neural Networks) project. The environment includes PyTorch with CUDA support, PyTorch Geometric, and essential data science and chemistry libraries.
+This repository contains the source code and environment setup for PIGNN (Physics-Informed Graph Neural Networks) from the paper 
+"Generalizable physics-informed graph neural network for CO2 solubility prediction across amine classes" 
+published in Separation and Purification Technology.
+The environment includes PyTorch with CUDA support, PyTorch Geometric, and essential libraries for data science and molecular chemistry.
 
 ## Prerequisites
 
